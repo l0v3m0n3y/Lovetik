@@ -99,5 +99,4 @@ public:
         return make_api_call("/ajax/search","POST","query=" + utility::conversions::to_utf8string(web::uri::encode_data_string(utility::conversions::to_string_t(link))));
     }
 };
-
 #endif
